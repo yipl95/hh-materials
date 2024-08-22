@@ -1,0 +1,21 @@
+@import "../../style/reset.scss";
+.ka-ui__empty {
+  box-sizing: border-box;
+  padding: 24px 30px;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .empty-txt {
+    color: $invalidColor;
+    font-size: 14px;
+    line-height: 14px;
+  }
+}

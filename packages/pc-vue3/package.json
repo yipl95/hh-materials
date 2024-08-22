@@ -1,0 +1,25 @@
+{
+  "name": "@hh/pc-vue3",
+  "version": "1.0.0",
+  "description": "惠灏 pc-vue3 业务组件",
+  "main": "dist/hh-pc-vue3.cjs.js",
+  "moudle": "dist/hh-pc-vue3.es.js",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "docs:build": "vite build --mode docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "element-plus": "^2.7.3",
+    "less": "^4.2.0",
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2"
+  }
+}

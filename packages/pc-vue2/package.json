@@ -1,0 +1,62 @@
+{
+  "name": "@ka/pc",
+  "version": "1.0.1-beta.4",
+  "description": "",
+  "main": "lib/ka-pc.js",
+  "style": "lib/index.css",
+  "files": [
+    "lib",
+    "es"
+  ],
+  "scripts": {
+    "dev": "vant-cli dev",
+    "test": "vant-cli test",
+    "lint": "vant-cli lint",
+    "build": "vant-cli build",
+    "push": "node ../../script/run-cli/publish-pc.mjs",
+    "release": "vant-cli release",
+    "test:coverage": "open test/coverage/index.html",
+    "build-site": "vant-cli build-site"
+  },
+  "author": "",
+  "peerDependencies": {
+    "vue": "^2.6.11"
+  },
+  "dependencies": {
+    "element-ui": "^2.15.14",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vant/cli": "^0.0.4",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "axios": "^0.24.0",
+    "babel-plugin-component": "^1.1.1",
+    "babel-preset-env": "^1.7.0",
+    "file-loader": "^6.2.0",
+    "lodash-es": "^4.17.21",
+    "sass-loader": "^7.1.0",
+    "gulp-sass": "^4.0.2",
+    "url-loader": "^4.1.1",
+    "autoprefixer": "^9.6.1",
+		"postcss-loader": "^3.0.0",
+		"precss": "^4.0.0",
+    "vue-template-babel-compiler": "^2.0.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "@vant"
+    ]
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "browserslist": [
+    "Android >= 4.0",
+    "iOS >= 8"
+  ],
+  "publishConfig": {
+    "registry": "http://npm.dustess.net"
+  }
+}
